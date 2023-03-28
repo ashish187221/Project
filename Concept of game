@@ -1,0 +1,17 @@
+Whenever it comes to board games, the first thing that comes to mind is ways to win.
+
+To say it in one word; strategy.
+
+In order to win, a player will have to choose a strategy and more often than not switch to another strategy based on the opponent’s move and board setting.
+
+How might we play this game?
+
+Play in an open square
+Play to an open corner
+How can we stay in the game?
+
+Block the opponent from winning
+How can we win the game?
+
+Place a third piece in a row to win
+Based on this behaviour of the system, we can incorporate the Strategy Pattern
