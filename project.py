@@ -1,10 +1,11 @@
 import tkinter as tk
 
+
 root = tk.Tk()
 root.resizable(False, False)
 root.title("Tic Tac Toe")
 
-tk.Label(root, text="Tic Tac Toe", font=('Ariel', 25)).pack()
+tk.Label(root, text="Tic Tac Toe Game", font=('Ariel', 25)).pack()
 status_label = tk.Label(root, text="X's turn", font=('Ariel', 15), bg='green', fg='snow')
 status_label.pack(fill=tk.X)
 def play_again():
