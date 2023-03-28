@@ -35,7 +35,7 @@ class XOPoint:
     def set(self):
         global current_chr
         if not self.value:
-            self.button.configure(text=current_chr, bg='snow', fg='black')
+            self.button.configure(text=current_chr, bg='snow', fg='light grey')
             self.value = current_chr
             if current_chr == "X":
                 X_points.append(self)
